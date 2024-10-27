@@ -1,3 +1,7 @@
+# requires app registration in EntraID with secret (or cert if you prefer)
+# + TeamworkDevice.Read.All graph permission scope. This script only
+# gets device health. No user info. 
+
 param (
     [string]$tenantID = "",
     [string]$clientID = "",
